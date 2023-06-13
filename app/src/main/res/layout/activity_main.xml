@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_guan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="官话"/>
+
+        <Button
+            android:id="@+id/btn_wu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吴话"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:id="@+id/btn_xiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湘语"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_gan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赣语"/>
+
+        <Button
+            android:id="@+id/btn_yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粤话"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:id="@+id/btn_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闽南话"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_pu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普通话"/>
+
+    </LinearLayout>
+
+</LinearLayout>
